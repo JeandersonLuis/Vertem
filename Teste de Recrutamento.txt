@@ -1,0 +1,77 @@
+// Algoritimo  "Teste de Recrutamento Vertem"
+// Autor : Jeanderson Luis dos Santos
+// Data  : 16/02/2022
+
+//1º Entrada
+
+let Array = [1, 2, 3, 4, 5, 6, 7, 8, 9] ;
+let soma = 0;
+
+	for(var c1=0; c1<Array.length; c1++)
+	{
+		for(var c2=0; c2<Array.length; c2++)
+		{
+			if(c2!=c1)
+			{
+				soma  = ((Array[c1]) + (Array[c2]));
+				{
+				if(soma == 10)
+					{
+						document.write("<br>");
+						document.write(Array[c1] + " + " + Array[c2] + "  = " + soma);
+					}
+				}
+			}
+		}
+	}
+	
+
+//===========================================================================================
+//2º Entrada
+
+let Array = [3, 8, 9, 6, 8, 5] ;
+let soma = 0;
+
+	for(var c1=0; c1<Array.length; c1++)
+	{
+		for(var c2=0; c2<Array.length; c2++)
+		{
+			if(c2!=c1)
+			{
+				soma  = ((Array[c1]) + (Array[c2]));
+				{
+				if(soma == 10)
+					{
+						document.write("<br>");
+						document.write(Array[c1] + " + " + Array[c2] + "  = " + soma);
+					}
+				}
+			}
+		}
+	}	
+
+
+
+//===========================================================================================
+//3º Entrada
+
+let Array = [4, 8, 6, 1, 3, 7] ;
+let soma = 0;
+
+	for(var c1=0; c1<Array.length; c1++)
+	{
+		for(var c2=0; c2<Array.length; c2++)
+		{
+			if(c2!=c1)
+			{
+				soma  = ((Array[c1]) + (Array[c2]));
+				{
+				if(soma == 7)
+					{
+						document.write("<br>");
+						document.write(Array[c1] + " + " + Array[c2] + "  = " + soma);
+					}
+				}
+			}
+		}
+	}
